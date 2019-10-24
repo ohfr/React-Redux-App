@@ -64,3 +64,30 @@
     transform: rotate(360deg);
   }
 }
+
+.homeWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeH1 {
+  width: 100%;
+  font-size: 2rem;
+  border-bottom: 2px solid gray;
+}
+
+.homeButton {
+  background: white;
+  border: 1px solid gray;
+}
+
+.homeButton:hover {
+  background: black;
+  color: white;
+}
+
+.homeQuote {
+  width: 100%;
+}

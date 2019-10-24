@@ -9,10 +9,10 @@ const Home = (props) => {
         props.fetchData();
     }
     return (
-        <div>
-            <h1>The Random Kanye Quote Generator</h1>
-            <button onClick={handleClick}>Get a random quote!</button>
-            {props.loading ? <div className="spinner" /> : <h2>{props.quote}</h2> }
+        <div className="homeWrapper">
+            <h1 className="homeH1">The Random Kanye Quote Generator</h1>
+            <button className="homeButton" onClick={handleClick}>Get a random quote!</button>
+            {props.loading ? <div className="spinner" /> : <h2 className="homeQuote">{props.quote}</h2> }
         </div>
     )
 }
